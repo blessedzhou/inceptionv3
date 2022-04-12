@@ -46,7 +46,7 @@ def main():
     vid = None
 
     Search = st.sidebar.text_input("Search for an object",)
-    uploaded_video = st.sidebar.file_uploader("Choose Video",type=(['avi','mp4','mov']))
+    uploaded_video = st.sidebar.file_uploader("Choose Video",type=(['avi','mp4','mov','mkv']))
     if uploaded_video is not None: 
         vid = uploaded_video.name
         with open(vid, mode='wb') as f:
