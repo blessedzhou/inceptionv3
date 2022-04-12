@@ -2,7 +2,7 @@
 base="dark"
 primaryColor="#3125de"
 secondaryBackgroundColor="#94d4ef"
-textColor="#0d0d0e"
+textColor="white"
 font="serif"
 [server]
 headless = true
