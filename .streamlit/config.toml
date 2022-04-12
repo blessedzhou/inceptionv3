@@ -6,3 +6,4 @@ textColor="#0d0d0e"
 font="serif"
 [server]
 headless = true
+maxUploadSize=1028
